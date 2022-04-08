@@ -19,7 +19,7 @@ public class FilesInOut {
 
  public static void main(String[] args) throws FileNotFoundException {
 // Replace this with statements to set the file name (input) and file name (output).
-System.out.println("Enter the input file to be regesiterd:");
+ System.out.println("Enter the input file to be regesiterd:");
 Scanner inputforFile = new Scanner(System.in);
 File fileIn = new File(inputforFile.next());
 Scanner in = new Scanner(fileIn);

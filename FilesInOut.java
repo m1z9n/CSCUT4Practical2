@@ -17,7 +17,7 @@ public class FilesInOut {
 	static private final int distenceforDateFirstChar = 23;
 	private static String formattext = "";
 
-public static void main(String[] args) throws FileNotFoundException {
+ public static void main(String[] args) throws FileNotFoundException {
 // Replace this with statements to set the file name (input) and file name (output).
 System.out.println("Enter the input file to be regesiterd:");
 Scanner inputforFile = new Scanner(System.in);

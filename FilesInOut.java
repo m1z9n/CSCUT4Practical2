@@ -13,7 +13,7 @@ import java.util.Scanner;
  * CSCU9T4 Java strings and files exercise.
  *
  */ 
- public class FilesInOut {
+  public class FilesInOut {
  	static private final int distenceforDateFirstChar = 23;
 	private static String formattext = "";
 

@@ -12,12 +12,12 @@ import java.util.Scanner;
  *
  * CSCU9T4 Java strings and files exercise.
  *
- */
-public class FilesInOut {
-	static private final int distenceforDateFirstChar = 23;
+ */ 
+ public class FilesInOut {
+ 	static private final int distenceforDateFirstChar = 23;
 	private static String formattext = "";
 
- public static void main(String[] args) throws FileNotFoundException {
+  public static void main(String[] args) throws FileNotFoundException {
 // Replace this with statements to set the file name (input) and file name (output).
  System.out.println("Enter the input file to be regesiterd:");
 Scanner inputforFile = new Scanner(System.in);
@@ -27,7 +27,7 @@ System.out.println("Enter the output file:");
 Scanner outPutFiles = new Scanner(System.in);
 String fileforNames = outPutFiles.next();
 File fileforOut = new File(fileforNames);
-if(!fileforOut.exists()){
+if(!fileforOut.exists()) {
 System.out.println("invalid output file!!");
 }
 else if(fileforOut.exists()) {
